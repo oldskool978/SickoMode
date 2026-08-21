@@ -1,0 +1,17 @@
+sample_rate: 48000
+chunk_size: 960
+lookahead_samples: 144
+oversample_factor: 8
+true_peak_ceiling_db: -0.3
+safety_margin_db: 0.02
+mode: "fir_linear_phase"
+num_celt_bands: 21
+transient_weight: 1.0
+spectral_flatness_offset_tone: 14.5
+spectral_flatness_offset_noise: 5.5
+basilar_compression_exponent: 0.33
+ath_min_db: -10.0
+release_time_sec: 0.025
+stereo_link: true
+prepass_enabled: false
+device: "cuda"

@@ -1,0 +1,9 @@
+torch
+torchaudio
+numpy
+scipy
+pyyaml
+fastapi
+uvicorn[standard]
+pydantic
+soundfile

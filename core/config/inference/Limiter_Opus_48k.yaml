@@ -1,0 +1,16 @@
+sample_rate: 48000
+chunk_size: 960
+lookahead_samples: 144
+oversample_factor: 8
+true_peak_ceiling_db: -0.3
+mode: "psychoacoustic_celt"
+num_celt_bands: 21
+smoothness_weight: 0.05
+transient_weight: 1.0
+spectral_flatness_offset_tone: 14.5
+spectral_flatness_offset_noise: 5.5
+basilar_compression_exponent: 0.33
+ath_min_db: -10.0
+stereo_link: true
+prepass_enabled: true
+device: "cuda"
